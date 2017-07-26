@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-JvARYd1vns1wgq4CSLypLg" name="12_apresentar_artefatos,_ucgRqn-tEd62TNYWta-H0w" guid="-JvARYd1vns1wgq4CSLypLg" changeDate="2016-09-27T16:08:01.811-0300">
+  <mainDescription>&lt;p>&#xD;
+    O líder de projeto, juntamente com sua equipe, irá apresentar aos Stakeholders os resultado obtidos ao final da fase de&#xD;
+    Concepção.&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Obs.:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Os Stakeholders são todos os interessados no projeto. No contexto dessa disciplina (PDS WEB) os interrados são os&#xD;
+    professores&#xD;
+&lt;/p></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-f4fArVL9nU7rTFsM_CaP2Q" name="Requisitos Concepção,_b8XAUX_mEd61Af7ua88vmw" guid="-f4fArVL9nU7rTFsM_CaP2Q">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    A definição do projeto ocorre através de uma entrevista com o cliente, onde o mesmo expõe&amp;nbsp;o problema que deseja&#xD;
+    solucionar.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Se o problema for entendido pela equipe de desenvolvimento, passa-se para a definição do escopo, senão entrevista-se&#xD;
+    novamente o cliente, até que se tenha entendimento do problema.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Com o problema entendido, o seu escopo&amp;nbsp;é definido. Esse escopo define o trabalho necessário para concluir o&#xD;
+    projeto, servindo como um guia (ou ponto de referência) para determinar que trabalho não está incluído (ou não&amp;nbsp;é&#xD;
+    necessário) no projeto. Ou seja, após sua definição, sabe-se o que está dentro e o que está fora do projeto, de maneira&#xD;
+    clara e sem ambiguidades&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Tendo definido o escopo, passa-se a definir as funções (requisitos funcionais) e as restrições (requisitos&#xD;
+    não-funcionais).&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    De posse de tais requisitos, divide-se o problema em casos de uso. &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+    face=&quot;NimbusRomNo9L-Regu&quot;>Esta atividade co-relaciona-se com a atividade de análise e projeto onde&amp;nbsp;é&#xD;
+    analisado&amp;nbsp;o modelo&lt;/font>&lt;/font> &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font face=&quot;NimbusRomNo9L-Regu&quot;>de casos de&#xD;
+    uso.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Ao final, descreve-se brevemente os casos de uso e os atores participantes do sistema.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CjcEtx8TWb-YsPi6t2QK8w" name="stakeholders,_EBlz1n_nEd61Af7ua88vmw" guid="-CjcEtx8TWb-YsPi6t2QK8w">
+    <refinedDescription>&lt;p>&#xD;
+    Resolver um problema complexo de forma eficiente significa atender às necessidades de um grupo distinto de envolvidos,&#xD;
+    com perspectivas distintas sobre o problema e as diferentes necessidades que devem ser atendidas pela solução. Esses&#xD;
+    envolvidos podem ser usuários do sistema, usuários indiretos do sistema, pessoas afetadas pelos resultados dos negócios&#xD;
+    influenciados pelo sistema ou mesmo compradores econômicos ou defensores do sistema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Para desenvolver uma solução eficaz, é importante conhecer bem quem são os envolvidos no sistema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    São alguns exemplos de envolvidos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cliente ou representante do Cliente&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Usuário ou representante do Usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Investidor&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Acionista&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Gerente de Produção&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Comprador&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designer&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Testador&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Escritor da Documentação&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-7EVz_X7iRNL__hjHOVMjtQ" name="Análise e Projeto Concepção,_dVxDQX_mEd61Af7ua88vmw" guid="-7EVz_X7iRNL__hjHOVMjtQ">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    Na disciplina de Requisitos, o cliente foi ouvido e seus desejos com relação ao software foram transformados em&#xD;
+    requisitos, conhecendo-se, assim, as possíveis funcionalidades do sistema. Em seguida, entra-se na disiciplina de&#xD;
+    análise e projeto.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    As atividades de análise, tanto do ambiente físico e computacional, como das restrições citadas pelo cliente, são&#xD;
+    executadas em paralelo. Para que tais atividades ocorram, são necessários os insumos gerados pela disciplina de&#xD;
+    requisitos, ou seja, as definições captadas na entrevista com cliente (escopo e requisitos).&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    De posse de tais requistios, devide-se o problema em casos de uso.Concluída essa atividades,&amp;nbsp;é feita uma análise&#xD;
+    do modelo de casos de uso. Tal atividade tem por objetivo verificar alguma possível incompatibilidade entre o modelo de&#xD;
+    casos de uso e as necessidade do cliente. Caso alguma&amp;nbsp; incompatibilidade seja encontrada, ajusta-se o modelo de&#xD;
+    casos de uso.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-GST0GvsxIFnfIma3QuxJIw" name="Implementação e Testes Concepção,_lnzK4X_mEd61Af7ua88vmw" guid="-GST0GvsxIFnfIma3QuxJIw">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    Caso o sistema a ser desenvolvido derive de um sistema legado, as telas do mesmo são capturadas e adaptadas ao novo&#xD;
+    sistema. Caso contrário,&amp;nbsp;é confeccionado um protótipo contendo as principais telas do novo sistema.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8XhNrv_ZeqmMUHCoP57_3g" name="designer,_If81g3_nEd61Af7ua88vmw" guid="-8XhNrv_ZeqmMUHCoP57_3g">
+    <keyConsiderations>O Designer não implementa a interface do usuário. Esse papel apenas se concentra no design e na &quot;formatação visual&quot; da&#xD;
+interface.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O Designer lidera e coordena a construção do protótipo e o design da interface do usuário da seguinte forma:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Capturando os requisitos da interface do usuário, incluindo requisitos de usabilidade&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Construindo protótipos de interface do usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incluindo outros envolvidos da interface de usuário, como usuários, nas revisões de usabilidade e nas sessões de&#xD;
+        teste de uso&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Revisando e fornecendo o feedback apropriado sobre a implementação final da interface do usuário, se criada por&#xD;
+        outros desenvolvedores, ou seja, projetistas e implementadores.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-FK5ti_FPgIk-WRgBdNpTUQ" name="Gerência de Processo Concepção,_nrh9MX_mEd61Af7ua88vmw" guid="-FK5ti_FPgIk-WRgBdNpTUQ">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    As atividades na disciplina de&amp;nbsp;Liderança de Processo para a fase de Concepção para os três focos (Ambiente,&#xD;
+    Cliente e Projeto) se aplica da seguinte forma:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Ambiente:&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        Especificar, junto com a equipe, as ferramentas que serão utilizadas afim de encontrar a compatibilidade. Para&#xD;
+        isso, as habilidades de cada um devem ser levadas em consideração para que se utilizem os softwares mais adequados.&#xD;
+        Uma ferramenta só é boa, se você souber utilizar. Quando especificadas, devem ser instaladas e esse processo deve&#xD;
+        ser documentado, para que outras pessoas que não participaram dessas escolhas possam entendê-las.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Cliente&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        Reunir-se com o cliente para capturar tudo que ele pode informar, a relação cliente e equipe deve ser estreita. O&#xD;
+        sistema será entendido à medida que as informações do cliente forem sendo disponibilizadas.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Projeto&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        O que será realizado durante o tempo será escrito nos planos (ver artefatos abaixo). Planejar é estabelecer metas&#xD;
+        num intervalo de tempo (BECK, 2000). Dado o entendimento do Documento de Visão, o&amp;nbsp;líder é capaz de escrever o&#xD;
+        macro-planejamento no Plano de Desenvolvimento de Software(PDS). Neste documento ele relaciona informações&#xD;
+        importantes como: &lt;strong>riscos&lt;/strong>, &lt;strong>escopo&lt;/strong>, &lt;strong>cronograma&lt;/strong>&#xD;
+        &lt;strong>geral&lt;/strong>, &lt;strong>distribuíção de&amp;nbsp;papéis&lt;/strong>, &lt;strong>registra de contatos&lt;/strong>,&#xD;
+        &lt;strong>formas de comunicação&lt;/strong>, entre outros. O Plano de Iteração e Integração(Pi&amp;amp;i) cria um&#xD;
+        micro-planejamento composto de menos informação que o PDS pensado durante uma iteração apenas. Ou seja, toda&#xD;
+        iteração deve ser planejada e documentada no Pi&amp;amp;i. Ambos os documentos devem estar bem escritos para que todos&#xD;
+        possam lê-los e entendê-los.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xxeb8Nk_MfXImFmUoSpJbQ" name="gerente,_LsMvH3_nEd61Af7ua88vmw" guid="-xxeb8Nk_MfXImFmUoSpJbQ"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-yTthkNmcS3PLnwH8q9KObA" name="Concepção,_Ecp0oX_mEd62TNYWta-H0w" guid="-yTthkNmcS3PLnwH8q9KObA">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    A fase de Concepção&amp;nbsp;é dada por terminada não necessariamente tendo passado o tempo estipulado para a mesma, mas&#xD;
+    tendo a equipe/cliente concordado acerca do que&amp;nbsp;é o sistema. No entanto, deve-se tomar muito cuidado com a duração&#xD;
+    desta fase, pois o prolongamento exacerbado ou a redução de sua duração poderá prejudicar as demais fases do projeto.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Ao final da fase, os seguintes objetivos devem ser atingidos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Delimitação do sistema: definir seu escopo, seus principais requisitos, desejos do cliente e prazos;&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Definição da tecnologia&amp;nbsp;candidata;&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Definição do protótipo das principais telas do sistema, baseadas nos principais casos de uso.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Esses objetivos são cumpridos através da geração dos seguintes artefatos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/doc_visao_F3AF5E8B.html&quot;&#xD;
+            guid=&quot;_KH53lnpREd6pL8HyHB0u_w&quot;>Documento de Visão&lt;/a>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/prototipo_de_telas_C9A82C94.html&quot;&#xD;
+            guid=&quot;_KH53mXpREd6pL8HyHB0u_w&quot;>Protótipos de Telas&lt;/a>&amp;nbsp;do sistema.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <keyConsiderations>É importante destacar que, no contexto do PDS Web,&amp;nbsp;é a equipe que&amp;nbsp;idealiza o sistema a ser desenvolvido,&#xD;
+assumindo, dessa forma,&amp;nbsp;figura de cliente e projetista.</keyConsiderations>
+    <usageGuidance>A fase de concepção é responsável por estabelecer a viabilidade do sistema proposto</usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-8Qma60ZWIsDt-pzwJme9Nw" name="Requisitos Elaboração,_qmPa0X_mEd61Af7ua88vmw" guid="-8Qma60ZWIsDt-pzwJme9Nw">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    Antes de inciar o detalhamento, são escolhidos os casos de uso que poderão ser desenvolvidos para validar a tecnologia.&#xD;
+    Tal escolha&amp;nbsp;é feita levando-se em consideração a complexidade e abragência. Mais de uma caso de uso&amp;nbsp;é&#xD;
+    escolhido, pois o detalhamento desses&amp;nbsp;casos de uso&amp;nbsp;é quem vai definir qual deles&amp;nbsp;é o mais adequado para&#xD;
+    realizar a validação da tecnologia.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Após escolhidos os casos de uso,&amp;nbsp;é realizado o detalhamento inicial dos mesmos&amp;nbsp;onde será&amp;nbsp;confeccionado o&#xD;
+    Documento de &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/especificacao_cdu_B6ECAA04.html&quot;&#xD;
+    guid=&quot;_bI4FQnpREd6pL8HyHB0u_w&quot;>Especificação de Caso de Uso&lt;/a>. Caso venham a surgir dúvidas, inseguranças ou&#xD;
+    inconsistências no detalhamento, o cliente será entrevistado ou consultado por algum meio de comunicação. Após sanar a&#xD;
+    dúvida, realiza-se novamente a primeira atividade, ajustando o que for necessário.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Após detalhar o caso de uso,&amp;nbsp;é feita uma revisão nos requisitos, o que pode ocasionar o surgimento de um novo caso&#xD;
+    de uso, implicando em uma revisão no &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/diagrama_geral_cdus_40846856.html&quot; guid=&quot;_KH53kXpREd6pL8HyHB0u_w&quot;>Diagrama Geral de&#xD;
+    Casos de Uso (UML)&lt;/a> e também no &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/doc_visao_F3AF5E8B.html&quot;&#xD;
+    guid=&quot;_KH53lnpREd6pL8HyHB0u_w&quot;>Documento de Visão&lt;/a>. Concluídas todas as atividades, inicia-se a disciplina de&#xD;
+    Análise e Projeto.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Rzd7zN5JxTXqBXcasn_dcA" name="3_identificar_mudancas_requisitos,_kF1zc3_nEd61Af7ua88vmw" guid="-Rzd7zN5JxTXqBXcasn_dcA">
+    <keyConsiderations>Essa atividade é comum à disciplina de Requisitos das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PoROxf8wl8AsbYWqGiLmWg" name="4_atualizar_diagrama_cdus,_kF1zdH_nEd61Af7ua88vmw" guid="-PoROxf8wl8AsbYWqGiLmWg">
+    <keyConsiderations>Essa atividade é comum à disciplina de Requisitos das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-fGjbuuQCWswKkUEKZzWVbw" name="Análise e Projeto Elaboração,_sJ7bIX_mEd61Af7ua88vmw" guid="-fGjbuuQCWswKkUEKZzWVbw">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    A primeira atividade a ser realizada nesta disciplina&amp;nbsp;é a revisão do &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/doc_visao_F3AF5E8B.html&quot; guid=&quot;_KH53lnpREd6pL8HyHB0u_w&quot;>Documento de Visão&lt;/a>&amp;nbsp;e&#xD;
+    documentos de &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/especificacao_cdu_B6ECAA04.html&quot;&#xD;
+    guid=&quot;_bI4FQnpREd6pL8HyHB0u_w&quot;>Especificação de Caso de Uso&lt;/a>, possibilitando assim, uma escolha mais adequada do&#xD;
+    caso de uso a ser utilizado na validação da tecnologia. Em seguida,&amp;nbsp;é identificado o caso de uso que melhor se&#xD;
+    adeque as especificações da tecnologia.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Se nenhum dos casos de uso detalhados na disciplina de Requisitos atender às especificações, deve-se realizar novamente&#xD;
+    a disciplina de requisitos, detalhando assim outros casos de uso que possam atender a tais especificações.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Quando o caso de uso for identificado, o mesmo será analisado, buscando identificar conceitos e operações. Em seguida,&#xD;
+    elabora-se o &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/diagrama_interacao_BDB5B5DE.html&quot;&#xD;
+    guid=&quot;_bI4FQHpREd6pL8HyHB0u_w&quot;>Diagrama de Interação de Objetos (UML) para o (s) Caso (s) de Uso (s) Implementado&#xD;
+    (s)&lt;/a> (Diagrama de Sequência) e o &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/diagrama_de_classes_9DB6D23A.html&quot; guid=&quot;_bIu7UXpREd6pL8HyHB0u_w&quot;>Diagrama de Classes&#xD;
+    de Projeto (UML)&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;br align=&quot;justify&quot; />&#xD;
+&lt;br /></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2WxXIhuYs9eIBAPUO3xeAA" name="10_elaborar_diagrama_de_interacao,_pJyOdn_nEd61Af7ua88vmw" guid="-2WxXIhuYs9eIBAPUO3xeAA">
+    <keyConsiderations>Essa atividade é comum à disciplina de análise e projeto das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-6ZIV8aQVwIRDM6hCE1AuKw" name="Implementação e Testes Elaboração,_tzuqgX_mEd61Af7ua88vmw" guid="-6ZIV8aQVwIRDM6hCE1AuKw">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    Inicialmente,&amp;nbsp;é realizado um estudo no documento de &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/especificacao_cdu_B6ECAA04.html&quot; guid=&quot;_bI4FQnpREd6pL8HyHB0u_w&quot;>Especificação de Caso&#xD;
+    de Uso&lt;/a> que será implementado. De posse de todas as informações necessárias, os testes unitário e funcional são&#xD;
+    construídos, as classes do componente são implementadas e os testes efetuados. Caso erros sejam encontrados após os&#xD;
+    testes, o componente deve ter sua implementação revisada, para que os erros possam ser corrigidos.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    As atividades dessa disciplina demonstram uma preocupação quanto aos testes, obrigando o&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/roles/implementador__33627EFA.html&quot; guid=&quot;_3b8ZEH7BEd6MaYaawFYtMQ&quot;>Implementador&lt;/a> a planejar os&#xD;
+    testes antes de realizar a implementação, garantindo assim que tudo que for desenvolvido deverá ser testado.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Ao fim desta disciplina, a equipe pode gozar de uma liberdade tal que permita aos trabalhadores a avaliação de&#xD;
+    alternativas tecnológicas, podendo-se assim adotar novas tecnologias, agregando valor ao sistema.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-FJaxgRdJFFMdq3r3E2Yr6A" name="Gerência de Processo Elaboração,_vzlCYX_mEd61Af7ua88vmw" guid="-FJaxgRdJFFMdq3r3E2Yr6A">
+    <mainDescription>&lt;p>&#xD;
+    As atividades da disciplina de gerência de processo na Elaboração, nos três focos, ocorrem da seguinte maneira:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ambiente&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        Especificar e instalar, junto com toda a equipe, o ambiente de desenvolvimento. Este é composto (geralmente) por&#xD;
+        Integrated Development Environment (Ambiente de Desenvolvimento Integrado ou IDE), frameworks, bibliotecas (libs),&#xD;
+        forma de armazenamento persistente (Bancos de Dados, arquivos, XML, etc), software servidor (Servidor de Aplicação,&#xD;
+        Servidor HTTP, etc) e outros itens que por ventura a equipe venha a precisar. Essa atividade é realizada no&#xD;
+        primeiro ponto Especificar ferramentas inerentes ao desenvolvimento. Ele deve também tratar as incompatibilidades,&#xD;
+        como por exemplo duas IDEs especificadas para o time, ou a utilização da ferramenta de acesso ao repositório de&#xD;
+        código. Deve criar uma forma padrão de realização das tarefas utilizando as ferramentas.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cliente&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        As reuniões com o cliente já devem estar fazendo parte do dia-a-dia dele. A agenda dele já deve estar adequada com&#xD;
+        a da equipe e o relacionamento estreito como programado, obviamente que, na medida do possível. Não se pode esperar&#xD;
+        que todos os clientes sejam pessoas simpáticas e receptivas. Durante a Elaboração, as primeiras reuniões serão&#xD;
+        feitas para adquirir informação sobre os casos de uso de maior risco para poder implementá-los. As reuniões finais&#xD;
+        vão mostrar o protótipo desenvolvido para que na próxima iteração sejam somente aparadas as arestas.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Projeto&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        A execução das atividades de planejamento são realizadas em seus respectivos documentos. O macroplanejamento&#xD;
+        sofrerá mudanças e inclusão de informações não enxergadas inicialmente, gerando revisões no Plano de&#xD;
+        Desenvolvimento de Software(PDS). O microplanejamento faz a próxima iteração ser planejada num novo Plano de&#xD;
+        Iteração e Integração(Pi&amp;amp;i).&amp;nbsp;&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-gXSnHoQY6l5yNJWA4kdl9Q" name="Elaboração,_FzrR8X_mEd62TNYWta-H0w" guid="-gXSnHoQY6l5yNJWA4kdl9Q">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    A&amp;nbsp;tecnologia&amp;nbsp;é validada&amp;nbsp;através do desenvolvimento de um&amp;nbsp; ou mais caso(s) de uso. Se ao final do&#xD;
+    desenvolvimento desse(s) caso(s) de uso, não for possível validar a tecnologia, deverá ser realizado o ajuste&#xD;
+    necessário, e deve-se iniciar uma nova iteração dentro da fase. Haverá tantas iterações quantas forem necessárias para&#xD;
+    que a o objetivo seja alcançado.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    É&amp;nbsp;importante ressaltar que o esforço para validar a tecnologa deve ser de toda a equipe, o que dará uma educação&#xD;
+    pela homogeneidade no desenvolvimento, tornando a Fase de Construção um notório complemento&amp;nbsp;a esta fase. A&#xD;
+    sistemática de desenvolvimento das demais partes do sistema seguirá a que foi utilizada durante esta fase.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ao final da fase, os seguintes objetivos devem ser atingidos:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Validar tecnologa candidata;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Demonstrar que a(s) tecnologia(s) suportará os requisitos do sistema a um custo e tempo justos;&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Estabelecer um ambiente de desenvolvimento.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Esses objetivos são cumpridos através da geração dos seguintes artefatos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/doc_visao_F3AF5E8B.html&quot;&#xD;
+        guid=&quot;_KH53lnpREd6pL8HyHB0u_w&quot;>Documento de Visão&lt;/a> revisado;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documento de &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/especificacao_cdu_B6ECAA04.html&quot;&#xD;
+        guid=&quot;_bI4FQnpREd6pL8HyHB0u_w&quot;>Especificação de Caso de Uso&lt;/a>;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wa1OylEC8re2hzFLvBAy6Q" name="3_identificar_mudancas_requisitos,_1s9bIn_nEd61Af7ua88vmw" guid="-wa1OylEC8re2hzFLvBAy6Q">
+    <keyConsiderations>Essa atividade é comum à disciplina de Requisitos das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lo3561dhzFvJ97HyimAHLw" name="6_realizar_analise_e_projeto,_1s9bJX_nEd61Af7ua88vmw" guid="-Lo3561dhzFvJ97HyimAHLw">
+    <keyConsiderations>Essa atividade é comum à disciplina de Requisitos das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-hlRXK0ZVet6dQJlAvI85Eg" name="Análise e Projeto Construção,_z2HDsX_mEd61Af7ua88vmw" guid="-hlRXK0ZVet6dQJlAvI85Eg">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>As atividades consitem basicamente em analisar o caso de uso, identificando conceitos,&#xD;
+    operações e componentes; atividades que podem acontecer em paralelo.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>Em seguida o &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/diagrama_interacao_BDB5B5DE.html&quot; guid=&quot;_bI4FQHpREd6pL8HyHB0u_w&quot;>Diagrama de Interação&#xD;
+    de Objetos (UML) para o (s) Caso (s) de Uso (s) Implementado (s)&lt;/a>&amp;nbsp;é construído e o &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/diagrama_de_classes_9DB6D23A.html&quot; guid=&quot;_bIu7UXpREd6pL8HyHB0u_w&quot;>Diagrama de Classes&#xD;
+    de Projeto (UML)&lt;/a> atualizado.&amp;nbsp;É importante salientar que&amp;nbsp;é nessa disciplina que os componentes são&#xD;
+    identificados. Eles serão a base para a implementação, que ocorrerá orientada a componentes.&lt;/font>&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jqkEI_OAb1iLFgSuIkMZ4A" name="10_elaborar_diagrama_de_interacao,_G8xYQH_3Ed61Af7ua88vmw" guid="-jqkEI_OAb1iLFgSuIkMZ4A">
+    <keyConsiderations>Essa atividade é comum à disciplina de análise e projeto das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-FBhD0Jn5O2s6cnFs8v7UCA" name="Implementação e Testes Construção,_2QL5cX_mEd61Af7ua88vmw" guid="-FBhD0Jn5O2s6cnFs8v7UCA">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    A primeira atividade da disciplina&amp;nbsp;é o planjamento da integração a ser realizada ao final da mesma. Em seguida, os&#xD;
+    componentes identificados na disciplina anterior, serão divididos dentro da equipe de desenvolvimento, de maneiras que&#xD;
+    a codificação dos mesmos ocorra de maneira paralela.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    A codificação ocorre da mesma maneira que na fase anterior, sendo inicialmente construídos os testes unitários e em&#xD;
+    seguida, implementado e testado o componente. Caso erros sejam encontrados após os testes, o componente&amp;nbsp;é&#xD;
+    implementado novamente, para que os erros possam ser corrigidos. A iteração acaba quando todos os componentes para o&#xD;
+    caso de uso forem integrados ao sistema. Em cada iteração dentro da fase, será implementado um caso de uso.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-VJUZkNMoECgwfqA7cfgPew" name="Gerência de Processo Construção,_3_WxAX_mEd61Af7ua88vmw" guid="-VJUZkNMoECgwfqA7cfgPew">
+    <mainDescription>&lt;p>&#xD;
+    As atividades dentro dos focos são:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ambiente&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        Encontra as incompatibilidades entre as ferramentas utilizadas e as trata. A construção utiliza o ambiente&#xD;
+        preparado nas duas fases anteriores e não acrescenta muito ao documento de ambiente.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cliente&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        As reuniões com o cliente são feitas para entregas de protótipo. O principal artefato a ser entregue&amp;nbsp;são&#xD;
+        os&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/codigos_fontes_9318F22A.html&quot;&#xD;
+        guid=&quot;_bIu7UHpREd6pL8HyHB0u_w&quot;>Códigos Fontes&lt;/a>, então as reuniões devem ser acompanhadas por desenvolvedores&#xD;
+        capacitados (&lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/roles/implementador__33627EFA.html&quot;&#xD;
+        guid=&quot;_3b8ZEH7BEd6MaYaawFYtMQ&quot;>Implementador&lt;/a>)&amp;nbsp;para explicar em níveis de detalhe o que foi produzido. Da&#xD;
+        mesma forma, são os mais indicados para ouvirem os ajustes finos e rapidamente implementar as alterações desejadas.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Projeto&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        A principal atividade deste foco é integrar o que está sendo produzido a cada iteração. Possivelmente, muita&#xD;
+        informação nova será dada ao &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/roles/lider_691919DB.html&quot;&#xD;
+        guid=&quot;_OlqUAnmbEd6IMtncZulwRw&quot;>Lider de Projetos&lt;/a>, pois muitos casos de uso serão detalhados e mudanças podem&#xD;
+        surgir em todo o escopo do projeto. O ciclo de entregas deve ser planejado&amp;nbsp;e as revisões serão feitas&amp;nbsp;à&#xD;
+        medida em que a implementação (ou não) dos casos de uso traga alterações ao cronograma.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-u8ZniCNwri3D99lzkQ_YQw" name="gerente,_7mzjaX_nEd61Af7ua88vmw" guid="-u8ZniCNwri3D99lzkQ_YQw"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-npriAM4Qa6D1ITSBIDDuDg" name="Construção,_GsTjEX_mEd62TNYWta-H0w" guid="-npriAM4Qa6D1ITSBIDDuDg">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    Certamente, o quebra-cabeça do gerenciamento sofre uma transição do desenvolvimento de propriedade intelectual durante&#xD;
+    a concepção e a elaboração para o desenvolvimento de produtos para distribuição durante a construção e a validação. A&#xD;
+    meta da fase de construção&amp;nbsp;é esclarecer os requisitos restantes e concluir o desenvolvimento do sistema com base&#xD;
+    no que foi previamente definido.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Nessa fase, a equipe poderá ser dividida, possibilitando a execução das iterações de maneira paralela. Cada iteração&#xD;
+    corresponde ao desenvolvimento de um caso de uso. Portanto, nesta fase, o número de iterações corresponderá ao número&#xD;
+    de casos de uso a serem desenvolvidos.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ao final da fase, os seguintes objetivos devem ser atingidos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Atingir a qualidade adequada com rapidez e eficiência;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Concluir a análise, o desenvolvimento e o teste de todas as funcionalidades necessárias;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Desenvolver de modo iterativo e incremental um produto completo que esteja pronto para a validação;&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            Minimizar custos de desenvolvimento, aperfeiçoando recursos e evitando fragmentar e refazer o desnecessário.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Esses objetivos são cumpridos através da geração dos seguintes artefatos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/doc_visao_F3AF5E8B.html&quot;&#xD;
+        guid=&quot;_KH53lnpREd6pL8HyHB0u_w&quot;>Documento de Visão&lt;/a> revisado;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documento de &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/especificacao_cdu_B6ECAA04.html&quot;&#xD;
+        guid=&quot;_bI4FQnpREd6pL8HyHB0u_w&quot;>Especificação de Caso de Uso&lt;/a>, para cada caso de uso implementado;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../PAWEB/workproducts/codigos_fontes_9318F22A.html&quot;&#xD;
+        guid=&quot;_bIu7UHpREd6pL8HyHB0u_w&quot;>Códigos Fontes&lt;/a> dos casos de uso implementados;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-vHicr6FSF0-zsEA3-te3uw" name="Requisitos Validação,_6TeIsX_mEd61Af7ua88vmw" guid="-vHicr6FSF0-zsEA3-te3uw">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>O&amp;nbsp; fluxo de atividades dessa disciplina na fase de&#xD;
+    Validação&amp;nbsp;possui&lt;/font>&amp;nbsp;&lt;font face=&quot;NimbusRomNo9L-Regu&quot;>apenas duas atividades. Uma responsável por verificar&#xD;
+    o surgimento de novas funcionalidades&lt;/font> &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>e, em caso positivo, outra para chamar as&#xD;
+    atividades da disciplina de análise da fase anterior.&lt;/font>&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-AD5kcSg-Lw5tMYdBviQ3wg" name="Implementação e Testes Validação,_89MkAH_mEd61Af7ua88vmw" guid="-AD5kcSg-Lw5tMYdBviQ3wg">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>As atividades acontecem basicamente em dois momentos. No primeiro momento são&#xD;
+    planejados e executados testes no ambiente de desenvolvimento (testes alfa) e no segundo, o sistema&amp;nbsp;é implantado e&#xD;
+    são executados testes de usabilidade e testes beta (teste no ambiente do cliente). Ao final,&amp;nbsp;é gerado um relatório&#xD;
+    com as informações coletadas nos testes.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>Encontrando erros após a execução dos testes alfa e/ou beta, dependendo de sua&#xD;
+    natuteza, a correção deverá ser feita na modelagem ou nos &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/codigos_fontes_9318F22A.html&quot; guid=&quot;_bIu7UHpREd6pL8HyHB0u_w&quot;>Códigos Fontes&lt;/a>. No&#xD;
+    caso de uma remodelagem, as disciplinas de requisitos e análise e projeto são executadas e, ao final, realizam-se&#xD;
+    novamente os referidos testes.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>Já no caso de problemas nos &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../PAWEB/workproducts/codigos_fontes_9318F22A.html&quot; guid=&quot;_bIu7UHpREd6pL8HyHB0u_w&quot;>Códigos Fontes&lt;/a>, uma&#xD;
+    nova execução da disciplina de implementação e testes deverá sanar o problema. São realizadas tantas iterações quantas&#xD;
+    forem necessárias, até que o uso do sistema seja aprovado pelo cliente.&lt;/font>&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5KlsvwI3YvQpkqh0McdLKA" name="implementador_testador,_EyzY6n_oEd61Af7ua88vmw" guid="-5KlsvwI3YvQpkqh0McdLKA"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-tHqol6GncM2nj_DKc1Mtvw" name="Gerência de Processo Validação,_-uvaIX_mEd61Af7ua88vmw" guid="-tHqol6GncM2nj_DKc1Mtvw">
+    <mainDescription>&lt;p>&#xD;
+    Dentro dos três focos, as atividades são executadas da seguinte maneira:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ambiente&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        O&amp;nbsp;Lider deve identificar os softwares necessários para que o sistema seja implantado e funcione normalmente,&#xD;
+        possivelmente num servidor do contratante. Após identificados, os softwares devem ser instalados e o sistema&#xD;
+        implantado.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cliente&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        A(s) Reunião(ões) com o cliente entregam o sistema completo em funcionamento implantado em ambiente desejado por&#xD;
+        ele. Caso haja satisfação, o projeto é finalizado. Caso existam discordâncias, uma nova iteração é requerida para&#xD;
+        que sejam realizados os ajustes, essa nova iteração pode durar muito pouco, cerca de um ou dois dias. E assim&#xD;
+        sucessivamente, até que seja entregue o produto e o cliente esteja satisfeito. Se nas fases anteriores, o processo&#xD;
+        se desenvolveu como proposto, não existirão grandes alterações identificadas e requeridas pelo cliente, afinal de&#xD;
+        contas ele vem acompanhando desde cedo cada apresentação de protótipo. Por não existirem grandes mudanças a serem&#xD;
+        realizadas durante essa fase, o o é dispensável.&amp;nbsp;&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;justify&quot;>&#xD;
+            Projeto&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p align=&quot;justify&quot;>&#xD;
+        Após várias alterações no cronograma, durante esta fase pouco será alterado. O sistema já deve estar maduro e a&#xD;
+        finalização do projeto é dada como certa. As iterações finais já devem planejar, inclusive, uma comemoração para o&#xD;
+        fim do projeto.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></mainDescription>
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PL7ZINTIRHEatrqLjGRJtQ" name="gerente,_Gss5yX_oEd61Af7ua88vmw" guid="-PL7ZINTIRHEatrqLjGRJtQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TQfRBWsOs0V3WB7uPmRC4g" name="implementador_testador,_Gss5yn_oEd61Af7ua88vmw" guid="-TQfRBWsOs0V3WB7uPmRC4g"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nn52j2-H_RE9D2RTrXmc2w" name="designer,_Gss5zn_oEd61Af7ua88vmw" guid="-nn52j2-H_RE9D2RTrXmc2w">
+    <keyConsiderations>O Designer não implementa a interface do usuário. Esse papel apenas se concentra no design e na &quot;formatação visual&quot; da&#xD;
+interface.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O Designer lidera e coordena a construção do protótipo e o design da interface do usuário da seguinte forma:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Capturando os requisitos da interface do usuário, incluindo requisitos de usabilidade&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Construindo protótipos de interface do usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incluindo outros envolvidos da interface de usuário, como usuários, nas revisões de usabilidade e nas sessões de&#xD;
+        teste de uso&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Revisando e fornecendo o feedback apropriado sobre a implementação final da interface do usuário, se criada por&#xD;
+        outros desenvolvedores, ou seja, projetistas e implementadores.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-YMQPYY6neBHpwYU03C5yrw" name="Validação,_IG540X_mEd62TNYWta-H0w" guid="-YMQPYY6neBHpwYU03C5yrw">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    Nesse momento do ciclo de vida, o feedback do usuário deve priorizar o ajuste fino do produto, a configuração, a&#xD;
+    instalação e os problemas de usabilidade; todos os problemas estruturais mais graves devem ter sido trabalhados antes&#xD;
+    no ciclo de vida do projeto.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    No entanto, modificações podem acontecer quando o cliente for realizar o “teste” da aplicação. Essas modificações&#xD;
+    incluem desde pequenos ajustes na interface, até a inclusão de novas características, o que gera o surgimento de novos&#xD;
+    requisitos e consequentemente novos casos de uso.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    Caso ocorram mudanças a nível de requisitos e casos de uso, será realizada uma nova iteração para cada novo caso de&#xD;
+    uso, com basicamente as mesmas atividades da fase de construção. Isso não significa que a fase de construção irá&#xD;
+    acontecer novamente, apenas as atividades executadas&amp;nbsp;é que serão as mesmas.&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    No fim do ciclo de vida da fase, os objetivos devem ter sido atendidos e o projeto deve estar em uma posição de&#xD;
+    fechamento. Em alguns casos, o fim do ciclo de vida atual pode coincidir com o início de outro ciclo de vida no mesmo&#xD;
+    produto, conduzindo&amp;nbsp;à nova geração ou versão do produto. Para outros projetos, o fim da validação pode coincidir&#xD;
+    com uma liberação total dos artefatos a terceiros, que poderão ser responsáveis pela operação, manutenção e melhorias&#xD;
+    no sistema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ao final da fase, os seguintes objetivos devem ser atingidos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Entregar e instalar o produto gerado no cliente;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Corrigir defeitos e modificar o sistema para corrigir problemas não identificados previamente.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Esses objetivos são cumpridos através da geração do Produto.&#xD;
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-oFK5rBH75hJXUkoiPEDZBQ" name="pas,_f7tAMX_lEd62TNYWta-H0w" guid="-oFK5rBH75hJXUkoiPEDZBQ">
+    <mainDescription>&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;strong>&lt;font size=&quot;5&quot;>As fases são organizadas da seguinte forma:&lt;/font>&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;h2 style=&quot;MARGIN: auto 0cm&quot;>&#xD;
+    Concepção&#xD;
+&lt;/h2>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>A fase de concepção representa o &lt;strong>bloco inicial&lt;/strong>. Ela envolve a articulação da visão&#xD;
+    para o sistema e o estabelecimento de um projeto formal para construir o sistema. Deve ser algo mais do que uma boa&#xD;
+    idéia rabiscada em um papel de rascunho. No final desta fase deve-se ter definido o escopo do produto, um vislumbre dos&#xD;
+    riscos a serem encontrados e ter demonstrado que o projeto é viável do ponto de vista do negócio da organização. Estes&#xD;
+    itens serão a fundação para a próxima fase. Autoriza formalmente um projeto (PMBOK, 2004).&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>Nessa fase iremos:&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ul type=&quot;disc&quot;>&#xD;
+    &lt;li&#xD;
+    style=&quot;MARGIN: 0cm 0cm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        &lt;font face=&quot;Arial&quot;>&lt;strong>Iniciar documento de&amp;nbsp;Visão do&amp;nbsp;sistema&lt;/strong>:&amp;nbsp; Nessa&lt;/font> atividade,&#xD;
+        dá-se uma &lt;font face=&quot;Arial&quot;>visão geral do que será desenvolvido para que seja posto à prova.&lt;/font>&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot;&#xD;
+    style=&quot;MARGIN: 0cm 0cm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt&quot;>&#xD;
+        &lt;font face=&quot;Arial&quot;>&lt;strong>Identificar os riscos&lt;/strong>: Procuramos os primeiros riscos que poderiam fazer falhar&#xD;
+        o projeto e tentar achar uma solução para eles. Outros riscos, menos graves, serão identificado e tratado nas fases&#xD;
+        a seguir.&lt;/font>&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot;&#xD;
+    style=&quot;MARGIN: 0cm 0cm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l3 level1 lfo4; tab-stops: list 36.0pt&quot;>&#xD;
+        &lt;font face=&quot;Arial&quot;>&lt;strong>Criar um protótipo&lt;/strong>: Queremos mostrar aos usuários como o sistema vai resolver o&#xD;
+        problema deles. Por exemplo, podemos criar uma seqüência de telas para mostrar como o sistema vai funcionar, ou&#xD;
+        podemos criar um protótipo mesmo.&lt;/font>&#xD;
+    &lt;/li>&#xD;
+    &lt;li class=&quot;MsoNormal&quot;&#xD;
+    style=&quot;MARGIN: 0cm 0cm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l3 level1 lfo4; tab-stops: list 36.0pt&quot;>&#xD;
+        &lt;strong>Implementar um caso de Uso de Risco&lt;/strong>: Procuramos mostrar aos usuários a implementação de um caso de&#xD;
+        uso do sistema, com isso ganha-se satisfação e feedback. Essa implementação se torna importante pois consegue-se&#xD;
+        validar as tecnologias propostas para o desenvolvimento&amp;nbsp;do sistema e verificar possíveis problemas.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h2 style=&quot;MARGIN: auto 0cm&quot;>&#xD;
+    &lt;a id=&quot;elaboracao&quot; name=&quot;elaboracao&quot;>&lt;font size=&quot;4&quot; face=&quot;Arial&quot;>Elaboração&lt;/font>&lt;/a>&amp;nbsp;&#xD;
+&lt;/h2>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>O propósito da fase de Elaboração neste processo é &lt;strong>analisar o domínio do problema&lt;/strong>&#xD;
+    de maneira mais aprofundada, estabelecar as tecnologias, desenvolver o plano de projeto e eliminar os elementos de alto&#xD;
+    risco do projeto.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>Embora o processo sempre tenha que acomodar mudanças, as atividades da fase de elaboração asseguram&#xD;
+    que as tecnologias, requisitos e planos são bastante estáveis e os riscos suficientemente mitigados, que se pode&#xD;
+    determinar o custo de maneira previsível e pode programar a conclusão do desenvolvimento. Conceitualmente, este nível&#xD;
+    de fidelidade corresponde ao nível necessário para uma organização comprometer-se a uma fase de construção de preço&#xD;
+    fixo.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>&lt;font size=&quot;3&quot;>&lt;font size=&quot;2&quot;>(Kruchten, Philippe – Introdução ao RUP – Rational Unified Process,&#xD;
+    Tradução: Rüdiger, Debora, Ed. Ciência Moderna, Rio de Janeiro, 2003.)&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;h2 style=&quot;MARGIN: auto 0cm&quot;>&#xD;
+    &lt;a id=&quot;construcao&quot; name=&quot;construcao&quot;>&lt;font size=&quot;4&quot; face=&quot;Arial&quot;>Construção&lt;/font>&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>Durante esta fase, serão priorizados os componentes essenciais juntamente com as características da&#xD;
+    aplicação que serão desenvolvidas e integradas ao produto que posteriormente serão testadas.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>Essas atividades visam alcançar a funcionalidade associada a qualidade tão rápida quanto possível de&#xD;
+    ser realizada denotando condições a obtenção de versões úteis.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;h2 style=&quot;MARGIN: auto 0cm&quot;>&#xD;
+    &lt;a id=&quot;validacao&quot; name=&quot;validacao&quot;>&lt;font size=&quot;4&quot; face=&quot;Arial&quot;>Validação&lt;/font>&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>O foco desta fase é assegurar que o software esteja disponível para seus usuários finais. A Fase de&#xD;
+    Validação pode atravessar várias iterações e inclui testar o produto em preparação para release e ajustes pequenos com&#xD;
+    base no feedback do usuário.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>No fim do ciclo de vida da Fase de Validação, os objetivos devem ter sido atendidos e o projeto deve&#xD;
+    estar em uma posição de fechamento. Em alguns casos, o fim do ciclo de vida atual pode coincidir com o início de outro&#xD;
+    ciclo de vida no mesmo produto, conduzindo à nova geração ou versão do produto. Para outros projetos, o fim da&#xD;
+    Validação pode coincidir com uma liberação total dos artefatos a terceiros que poderão ser responsáveis pela operação,&#xD;
+    manutenção e melhorias no sistema liberado.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;justify&quot;>&#xD;
+    &lt;font face=&quot;Arial&quot;>As atividades realizadas durante uma iteração na Fase de Validação dependem da meta. Por exemplo, ao&#xD;
+    corrigir erros, normalmente bastam a implementação. Se, no entanto, novas características tiverem de ser adicionadas, a&#xD;
+    iteração será semelhante a uma da fase de construção, exigindo análise, design, etc.&lt;/font>&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+    <purpose>&lt;p align=&quot;justify&quot;>&#xD;
+    O &lt;strong>PAWeb&lt;/strong> foi elaborado com o propósito de ser utilizado em práticas acadêmicas de desenvolvimento de&#xD;
+    software para Sistemas Web.&#xD;
+&lt;/p></purpose>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PisCbppwANenIytoR_TFiA" name="stakeholders,_OBTX8C8uEeaqD6yBQlJHNA" guid="-PisCbppwANenIytoR_TFiA">
+    <refinedDescription>&lt;p>&#xD;
+    Resolver um problema complexo de forma eficiente significa atender às necessidades de um grupo distinto de envolvidos,&#xD;
+    com perspectivas distintas sobre o problema e as diferentes necessidades que devem ser atendidas pela solução. Esses&#xD;
+    envolvidos podem ser usuários do sistema, usuários indiretos do sistema, pessoas afetadas pelos resultados dos negócios&#xD;
+    influenciados pelo sistema ou mesmo compradores econômicos ou defensores do sistema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Para desenvolver uma solução eficaz, é importante conhecer bem quem são os envolvidos no sistema.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    São alguns exemplos de envolvidos:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cliente ou representante do Cliente&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Usuário ou representante do Usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Investidor&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Acionista&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Gerente de Produção&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Comprador&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designer&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Testador&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Escritor da Documentação&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Fu6ImbdgI2j6QrPJZnjvew" name="10_realizar_analise_e_projeto,_f42tEC-WEeaqD6yBQlJHNA" guid="-Fu6ImbdgI2j6QrPJZnjvew">
+    <keyConsiderations>Essa atividade é comum à disciplina de Requisitos das fases de Elaboração e Construção.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--MUlcR1dlqqyJeZVBKsZwQ" name="designer,_95h1hDAREeafoOQIB0rwxA" guid="--MUlcR1dlqqyJeZVBKsZwQ">
+    <keyConsiderations>O Designer não implementa a interface do usuário. Esse papel apenas se concentra no design e na &quot;formatação visual&quot; da&#xD;
+interface.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O Designer lidera e coordena a construção do protótipo e o design da interface do usuário da seguinte forma:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Capturando os requisitos da interface do usuário, incluindo requisitos de usabilidade&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Construindo protótipos de interface do usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incluindo outros envolvidos da interface de usuário, como usuários, nas revisões de usabilidade e nas sessões de&#xD;
+        teste de uso&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Revisando e fornecendo o feedback apropriado sobre a implementação final da interface do usuário, se criada por&#xD;
+        outros desenvolvedores, ou seja, projetistas e implementadores.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aJCbtQYz4CIYYA3AOb_y7Q" name="designer,_96ISdDAREeafoOQIB0rwxA" guid="-aJCbtQYz4CIYYA3AOb_y7Q">
+    <keyConsiderations>O Designer não implementa a interface do usuário. Esse papel apenas se concentra no design e na &quot;formatação visual&quot; da&#xD;
+interface.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O Designer lidera e coordena a construção do protótipo e o design da interface do usuário da seguinte forma:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Capturando os requisitos da interface do usuário, incluindo requisitos de usabilidade&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Construindo protótipos de interface do usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incluindo outros envolvidos da interface de usuário, como usuários, nas revisões de usabilidade e nas sessões de&#xD;
+        teste de uso&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Revisando e fornecendo o feedback apropriado sobre a implementação final da interface do usuário, se criada por&#xD;
+        outros desenvolvedores, ou seja, projetistas e implementadores.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RtARlYqmp57I8LwKGzc2Kg" name="designer,_96uIVDAREeafoOQIB0rwxA" guid="-RtARlYqmp57I8LwKGzc2Kg">
+    <keyConsiderations>O Designer não implementa a interface do usuário. Esse papel apenas se concentra no design e na &quot;formatação visual&quot; da&#xD;
+interface.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O Designer lidera e coordena a construção do protótipo e o design da interface do usuário da seguinte forma:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Capturando os requisitos da interface do usuário, incluindo requisitos de usabilidade&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Construindo protótipos de interface do usuário&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incluindo outros envolvidos da interface de usuário, como usuários, nas revisões de usabilidade e nas sessões de&#xD;
+        teste de uso&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Revisando e fornecendo o feedback apropriado sobre a implementação final da interface do usuário, se criada por&#xD;
+        outros desenvolvedores, ou seja, projetistas e implementadores.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-xGPGeLxfEuZDP6IpX-yiuw" name="requisitos_construcao,_yeMOgX_mEd61Af7ua88vmw" guid="-xGPGeLxfEuZDP6IpX-yiuw">
+    <keyConsiderations>É importante lembrar que o&amp;nbsp;processo&amp;nbsp;é iterativo e as disciplinas ocorrem em &lt;font face=&quot;NimbusRomNo9L-Regu&quot;>&lt;font&#xD;
+face=&quot;NimbusRomNo9L-Regu&quot;>paralelo dentro de uma fase.&lt;/font>&lt;/font></keyConsiderations>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AH0mmIjMhbT2gPZhVelpww" name="12_apresentar_artefatos,_LsMvGn_nEd61Af7ua88vmw" guid="-AH0mmIjMhbT2gPZhVelpww">
+    <keyConsiderations>&lt;p>&#xD;
+    Obs.:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Os Stakeholders são todos os interessados no projeto. No contexto dessa disciplina (PDS WEB) os interrados são os&#xD;
+    professores&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O líder de projeto, juntamente com sua equipe, irá apresentar aos Stakeholders os resultado obtidos ao final da fase de&#xD;
+    Concepção.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6XGhp1EKY4isM8tvT9LAgg" name="12_apresentar_artefatos,_CO3uMC3aEeaR0ez2rl76Gg" guid="-6XGhp1EKY4isM8tvT9LAgg">
+    <keyConsiderations>&lt;p>&#xD;
+    Obs.:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Os Stakeholders são todos os interessados no projeto. No contexto dessa disciplina (PDS WEB) os interrados são os&#xD;
+    professores&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O líder de projeto, juntamente com sua equipe, irá apresentar aos Stakeholders os resultado obtidos ao final da fase de&#xD;
+    Concepção.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uI4Bsvvi_NHe1vJD77lKNQ" name="12_apresentar_artefatos,_Fvk9cC-eEeaqD6yBQlJHNA" guid="-uI4Bsvvi_NHe1vJD77lKNQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Obs.:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Os Stakeholders são todos os interessados no projeto. No contexto dessa disciplina (PDS WEB) os interrados são os&#xD;
+    professores&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O líder de projeto, juntamente com sua equipe, irá apresentar aos Stakeholders os resultado obtidos ao final da fase de&#xD;
+    Concepção.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BrsltJsqJh5nx2QIDFNQgg" name="12_apresentar_artefatos,_L1qZQHGSEeejNPcV7nmkiw" guid="-BrsltJsqJh5nx2QIDFNQgg">
+    <keyConsiderations>&lt;p>&#xD;
+    Obs.:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Os Stakeholders são todos os interessados no projeto. No contexto dessa disciplina (PDS WEB) os interrados são os&#xD;
+    professores&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    O líder de projeto, juntamente com sua equipe, irá apresentar aos Stakeholders os resultado obtidos ao final da fase de&#xD;
+    Concepção.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>
